@@ -13,11 +13,13 @@ public class Circle implements Shape {
 
     }
 
+    //returns the area of circle
     @Override
     public double area() {
         return Math.PI * Math.pow(radius,2);
     }
 
+    //returns the perimeter of circle
     @Override
     public double perimeter() {
         return 2 * Math.PI * radius;
